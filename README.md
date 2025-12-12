@@ -167,4 +167,23 @@
     <p>Points far from the main cluster — investigate causes (data errors, special events, real anomalies).</p>
     <ul>
       <li>Filter the chart or use <code>Top N</code> filters to highlight outliers.</li>
+      <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Power BI — Class Notes</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:#f7fafc; color:#0b1220; margin:0; padding:28px; }
+    .container { max-width:1000px; margin:0 auto; }
+    header { display:flex; align-items:center; gap:16px; margin-bottom:18px; }
+    h1 { margin:0; font-size:28px; }
+    .badge { margin-left:auto; background:#e6f0ff; color:#0447a6; padding:6px 10px; border-radius:999px; font-size:13px; }
+    nav { margin:16px 0; padding:12px; background:#fff; border:1px solid #e6ebf2; border-radius:8px; }
+    nav a { margin-right:12px; color:#0366d6; text-decoration:none; }
+    section { background:#fff; border:1px solid #eef2f7; border-radius:10px; padding:16px; margin-bottom:14px; }
+    h2 { margin-top:0; }
+    ul { margin:8px 0 12px 18px; }
+    .tip { background:#fbfbff; padding:10px; border-radius:6px; border:1px dashed #e5e9f2; fon
+
 
