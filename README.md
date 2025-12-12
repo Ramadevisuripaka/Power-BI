@@ -81,3 +81,90 @@
 </div>
 </body>
 </html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Power BI — Class Notes</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    /* Clean, readable styling */
+    body { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height:1.5; margin:0; padding:24px; background:#fbfdff; color:#0b1220; }
+    header { display:flex; gap:16px; align-items:center; margin-bottom:18px; }
+    h1 { margin:0; font-size:28px; }
+    .tag { background:#e6f0ff; color:#003a8c; padding:6px 10px; border-radius:999px; font-size:13px; }
+    .meta { color:#495057; font-size:13px; }
+    nav { margin: 18px 0; padding:12px; background:#fff; border:1px solid #e6ebf2; border-radius:8px; }
+    nav a { display:inline-block; margin-right:12px; color:#0366d6; text-decoration:none; }
+    section { margin-top:20px; padding:18px; background:white; border:1px solid #eef2f7; border-radius:10px; }
+    h2 { margin-top:0; }
+    .example { font-size:14px; padding:10px; background:#fbfbff; border-radius:6px; border:1px dashed #e5e9f2; margin-top:8px; }
+    ul { margin:8px 0 12px 20px; }
+    code { background:#f6f8fa; padding:2px 6px; border-radius:4px; font-family: monospace; }
+    footer { margin-top:28px; font-size:13px; color:#6b7280; }
+    .grid { display:grid; gap:12px; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); }
+    .card { padding:12px; border-radius:8px; background:#fff; border:1px solid #eef2f7; }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Power BI — Class Notes</h1>
+      <div class="meta">Summary of visuals, analyses & tools learned — ready for GitHub</div>
+    </div>
+    <div style="margin-left:auto" class="tag">Power BI</div>
+  </header>
+
+  <nav>
+    <strong>Contents:</strong>
+    <a href="#types-of-analysis">Types of analysis</a>
+    <a href="#columns">Types of columns</a>
+    <a href="#scatter">Scatter plot</a>
+    <a href="#line">Line chart</a>
+    <a href="#include-exclude">Include / Exclude</a>
+    <a href="#tables">Table / Matrix</a>
+    <a href="#others">Other visuals</a>
+  </nav>
+
+  <section id="types-of-analysis">
+    <h2>Types of analysis</h2>
+    <p>Short descriptions of common analysis approaches in Power BI:</p>
+    <ul>
+      <li><strong>Exploratory analysis:</strong> Look for patterns & anomalies using visuals (scatter, tree map).</li>
+      <li><strong>Comparative analysis:</strong> Compare categories (column, stacked bar, line & column).</li>
+      <li><strong>Trend analysis:</strong> Use time-series visuals (line chart) to see trends over time.</li>
+      <li><strong>Root-cause analysis:</strong> Drill-down using hierarchies, matrix and filters.</li>
+    </ul>
+    <div class="example">Tip: Start with simple visuals, then add slicers/filters to narrow insights.</div>
+  </section>
+
+  <section id="columns">
+    <h2>Types of columns</h2>
+    <ul>
+      <li><strong>Text (string)</strong>: categories, names.</li>
+      <li><strong>Numeric</strong>: integers, decimals — used for sums, averages.</li>
+      <li><strong>Date/Time</strong>: use for trend/time-series and hierarchies (year, month).</li>
+      <li><strong>Calculated columns</strong>: row-level derived values via DAX.</li>
+      <li><strong>Measures</strong>: aggregation-level calculations (SUM, AVERAGE, custom DAX).</li>
+    </ul>
+    <div class="example">Example DAX measure: <code>Total Sales = SUM(Sales[Amount])</code></div>
+  </section>
+
+  <section id="scatter">
+    <h2>Scatter plot</h2>
+    <p>Used to show relationship between two numerical measures. You can also add size and color to represent additional dimensions.</p>
+    <ul>
+      <li><strong>X-axis:</strong> numeric measure (e.g., Unit Price)</li>
+      <li><strong>Y-axis:</strong> numeric measure (e.g., Quantity Sold)</li>
+      <li><strong>Size:</strong> Market Size or Sales Amount</li>
+      <li><strong>Color:</strong> Category to group points</li>
+    </ul>
+    <div class="example">Use scatter when you want to spot clusters, correlation, or outliers.</div>
+  </section>
+
+  <section id="outliers">
+    <h2>Outliers</h2>
+    <p>Points far from the main cluster — investigate causes (data errors, special events, real anomalies).</p>
+    <ul>
+      <li>Filter the chart or use <code>Top N</code> filters to highlight outliers.</li>
+
