@@ -343,6 +343,167 @@
 
 </body>
 </html>
+# 📊 Power BI Visualization Assignment
+
+## 📌 Project Title
+
+**Sales, Profit, and Units Analysis using Power BI**
+
+---
+
+## 🧠 Project Overview
+
+This project focuses on analyzing business performance data using **Power BI**. The dataset contains sales-related information such as **Sales**, **Profit**, **Units Sold**, **Manufacturing Price**, **Sales Price**, **Discount Band**, and **Time (Date)**.
+
+The goal of this assignment is to:
+
+* Understand sales and profit trends over time
+* Analyze the impact of discounts on profit
+* Study the relationship between manufacturing cost, sales price, and profit
+* Create clear and meaningful visualizations for business insights
+
+---
+
+## 🗂️ Dataset Used
+
+* **File Name:** Financial Sample.xlsx
+* **Source:** Sample financial dataset (used for learning & analysis)
+
+### Key Columns:
+
+* Date
+* Sales
+* Profit
+* Units Sold
+* Manufacturing Price
+* Sales Price
+* Discount Band
+* Country / Segment (if available)
+
+---
+
+## 🛠️ Tools & Technologies
+
+* **Power BI Desktop** – Data cleaning, modeling, and visualization
+* **Power Query** – Data transformation
+* **GitHub** – Project documentation and sharing
+
+---
+
+## 🔄 Step-by-Step Workflow
+
+### Step 1: Data Import
+
+* Open Power BI Desktop
+* Click **Get Data → Excel**
+* Load `Financial Sample.xlsx`
+
+### Step 2: Data Cleaning (Power Query)
+
+* Checked data types
+* Removed unnecessary columns
+* Renamed columns for better understanding
+* Verified null or blank values
+
+### Step 3: Data Modeling
+
+* Ensured correct relationships
+* Verified numeric and date fields
+
+---
+
+## 📈 Visualizations Created
+
+### 1️⃣ Time-Based Trend Analysis
+
+**Objective:** Understand business performance over time
+
+* Monthly Sales Trend (Line Chart)
+* Quarterly Profit Trend (Line Chart)
+* Yearly Units Sold Trend (Column Chart)
+
+📌 *Insight:* Sales and profit show seasonal patterns and steady growth in certain periods.
+
+---
+
+### 2️⃣ Discount Impact Analysis
+
+**Objective:** Analyze how discount bands affect sales and profit
+
+* Sales by Discount Band (Column Chart)
+* Profit by Discount Band (Bar Chart)
+
+📌 *Insight:* Higher discounts increase sales volume but reduce profit margins.
+
+---
+
+### 3️⃣ Manufacturing Price vs Sales Price vs Profit
+
+**Objective:** Understand cost and pricing impact on profit
+
+* Scatter Plot: Manufacturing Price vs Profit
+* Scatter Plot: Sales Price vs Profit
+
+📌 *Insight:* Profit increases when the gap between sales price and manufacturing price is higher.
+
+---
+
+### 4️⃣ Relationship Between Key Metrics
+
+**Objective:** Identify correlation among Sales, Profit, and Units Sold
+
+* Scatter Chart: Sales vs Profit
+* Scatter Chart: Units Sold vs Profit
+
+📌 *Insight:* Higher units sold generally lead to higher sales, but profit depends on pricing and discounts.
+
+---
+
+## 🎯 Key Learnings
+
+* Time-based analysis helps identify trends and seasonality
+* Discounts directly affect profitability
+* Pricing strategy plays a crucial role in profit generation
+* Power BI visuals make data-driven decisions easier
+
+---
+
+## 📁 Project Structure (GitHub)
+
+```
+PowerBI-Visualization-Assignment/
+│
+├── Dataset/
+│   └── Financial Sample.xlsx
+│
+├── PowerBI_File/
+│   └── Financial_Analysis.pbix
+│
+├── Screenshots/
+│   └── dashboard_images.png
+│
+└── README.md
+```
+
+---
+
+## 🚀 How to View the Project
+
+1. Download the `.pbix` file
+2. Open it using **Power BI Desktop**
+3. Explore different report pages and interact with visuals
+
+---
+
+## 🙌 Conclusion
+
+This assignment helped me gain hands-on experience in **data visualization**, **business analysis**, and **Power BI reporting**. The project demonstrates how raw data can be transformed into meaningful insights using effective visual storytelling.
+
+---
+
+📌 *Created by:* **Ramadevi Suripaka**
+📅 *Tool Used:* Power BI Desktop
+
 
 
 
