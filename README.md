@@ -294,23 +294,152 @@ PowerBI-Learning-Notes/
 ├── Screenshots/
 └── README.md
 ```
+<!DOCTYPE html>
 
----
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power BI Data Visualization Assignment</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.7;
+            margin: 40px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #1f4e79;
+        }
+        h1 {
+            border-bottom: 3px solid #1f4e79;
+            padding-bottom: 10px;
+        }
+        section {
+            background: #ffffff;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        ul {
+            margin-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        code {
+            background: #eef3f8;
+            padding: 4px 6px;
+            border-radius: 4px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
 
-## 🚀 How Beginners Can Use This Repository
+```
+<h1>Power BI Data Visualization Assignment</h1>
+<p>
+    This document explains my <strong>Power BI Data Visualization Assignment</strong> using the provided financial sample data.
+    The goal of this assignment is to analyze sales, profit, units sold, discounts, and time-based trends
+    and present meaningful business insights through effective visualizations.
+</p>
 
-1. Read README step by step
-2. Practice in Power BI Desktop
-3. Apply concepts on sample data
-4. Use this as interview preparation
+<section>
+    <h2>1. Objective of the Assignment</h2>
+    <p>The main objectives of this assignment are:</p>
+    <ul>
+        <li>To understand the structure of financial data.</li>
+        <li>To analyze sales, profit, and units sold.</li>
+        <li>To study the impact of discounts on profit.</li>
+        <li>To identify monthly, quarterly, and yearly trends.</li>
+        <li>To build interactive and meaningful dashboards using Power BI.</li>
+    </ul>
+</section>
 
----
+<section>
+    <h2>2. Dataset Description</h2>
+    <p>The dataset used in this assignment is a <strong>Financial Sample Dataset</strong>. It contains the following key columns:</p>
+    <ul>
+        <li><strong>Country</strong> – Region where the product is sold</li>
+        <li><strong>Product</strong> – Product category</li>
+        <li><strong>Segment</strong> – Customer segment</li>
+        <li><strong>Manufacturing Price</strong> – Cost to manufacture the product</li>
+        <li><strong>Sale Price</strong> – Price at which the product is sold</li>
+        <li><strong>Units Sold</strong> – Number of units sold</li>
+        <li><strong>Gross Sales</strong> – Total sales before discount</li>
+        <li><strong>Discount Band</strong> – Level of discount applied</li>
+        <li><strong>Discounts</strong> – Discount value</li>
+        <li><strong>Sales</strong> – Final sales after discount</li>
+        <li><strong>Profit</strong> – Net profit earned</li>
+        <li><strong>Date</strong> – Transaction date</li>
+    </ul>
+</section>
 
-## ✅ Conclusion
+<section>
+    <h2>3. Tools Used</h2>
+    <ul>
+        <li><strong>Power BI Desktop</strong> – For data modeling and visualization</li>
+        <li><strong>Microsoft Excel</strong> – Source data format</li>
+        <li><strong>GitHub</strong> – For version control and assignment hosting</li>
+    </ul>
+</section>
 
-This documentation represents my **complete beginner journey in Power BI & Power Query** from **December 1st** onwards. It is designed to help **new learners** understand concepts clearly without confusion.
+<section>
+    <h2>4. Data Preparation (Power Query)</h2>
+    <p>The following steps were performed in <strong>Power Query Editor</strong>:</p>
+    <ol>
+        <li>Loaded the Excel dataset into Power BI.</li>
+        <li>Checked data types for all columns.</li>
+        <li>Removed unnecessary or duplicate rows.</li>
+        <li>Verified date format for time-based analysis.</li>
+        <li>Ensured numeric columns had correct data types.</li>
+    </ol>
+</section>
 
----
+<section>
+    <h2>5. Visualizations Created</h2>
 
-📌 **Created By:** Ramadevi Suripaka
-📌 **Learning Tool:** Power BI Desktop & Power Query
+    <h3>5.1 Sales, Profit, and Units Sold Analysis</h3>
+    <ul>
+        <li>Clustered Column Chart to compare Sales and Profit.</li>
+        <li>Line Chart to analyze Units Sold over time.</li>
+        <li>Table and Matrix visuals for detailed values.</li>
+    </ul>
+
+    <h3>5.2 Time-Based Trend Analysis</h3>
+    <ul>
+        <li>Monthly sales and profit trend using Line Chart.</li>
+        <li>Quarterly comparison using Column Chart.</li>
+        <li>Yearly performance overview.</li>
+    </ul>
+
+    <h3>5.3 Discount Impact Analysis</h3>
+    <ul>
+        <li>Bar Chart showing Sales across Discount Bands.</li>
+        <li>Profit comparison for different discount levels.</li>
+        <li>Insights on how high discounts affect profit.</li>
+    </ul>
+
+    <h3>5.4 Relationship Analysis</h3>
+    <ul>
+        <li>Scatter Plot to analyze relationship between Manufacturing Price, Sale Price, and Profit.</li>
+        <li>Outlier detection to identify unusual values.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>6. Key Insights</h2>
+    <ul>
+        <li>Higher discounts increase sales volume but reduce profit margins.</li>
+        <li>Products with optimized manufacturing and sale price generate higher profit.</li>
+        <li>Sales and profit show seasonal trends across months and quarters
+```
+
